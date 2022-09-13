@@ -19,4 +19,5 @@ public class Stock {
 
     private Integer count;
 
+    private Integer version;
 }

@@ -20,7 +20,7 @@ public class StockController {
 
     @PostMapping("/reduce")
     public String reduce() {
-        stockService.reduce();
+        stockService.reduceThree();
         return "stock reduce!";
     }
 
